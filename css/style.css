@@ -333,6 +333,16 @@ ul {
   cursor: pointer;
 }
 
+/* Register-form */
+
+label {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
 /* прихованний заголовок */
 
 .visually-hidden {
