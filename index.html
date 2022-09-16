@@ -85,7 +85,7 @@
               >
               <div class="register-group" role="group">
                 <label class="register-label">
-                  <span class="register-suptitle">І'мя</span>
+                  <span class="register-suptitle">Ім'я</span>
                   <input
                     class="register-input"
                     type="text"
@@ -121,28 +121,41 @@
                   </svg>
                 </label>
                 <label class="register-label">
-                  <span class="register-suptitle">Коментар</span>
+                  <span class="register-comment-suptitle">Коментар</span>
                   <textarea
                     class="register-comment"
                     name="comment"
                     rows="5"
-                    placeholder="Введіть Коментар"
+                    placeholder="Введіть текст"
                   >
                   </textarea>
                 </label>
               </div>
+              <!-- checkbox -->
               <label class="register-form-checkbox">
-                <input class="register-checkbox" type="checkbox" name="check" />
-                <svg class="register-icon" width="16" height="15">
-                  <use class="icon-checked" href="./images/icon.svg#icon-icon-check"></use>
-                  <use class="icon-unchecked" href="./images/icon.svg#icon-icon-unchecked"></use>
+                <input
+                  class="register-checkbox visually-hidden"
+                  type="checkbox"
+                  name="check"
+                />
+                <svg class="register-icon-checkbox" width="16" height="15">
+                  <use
+                    class="icon-checked"
+                    href="./images/icon.svg#icon-icon-check"
+                  ></use>
+                  <use
+                    class="icon-unchecked"
+                    href="./images/icon.svg#icon-icon-unchecked"
+                  ></use>
                 </svg>
                 <span class="checkbox-title"
                   >Погоджуюся з розсилкою та приймаю
                   <a class="checkbox-link" href="">Умови договору</a>
                 </span>
               </label>
-              <button class="register-btn section-btn" type="submit">Відправити</button>
+              <button class="register-btn section-btn" type="submit">
+                Відправити
+              </button>
             </form>
           </div>
         </div>
@@ -662,6 +675,19 @@
               </a>
             </li>
           </ul>
+        </div>
+        <!-- footer-form -->
+        <div class="footer-form">
+          <strong class="footer-form-title">Підпишіться на розсилку</strong>
+          <form name="footer-form">
+            <label class="footer-label">
+              <input class="footer-input" type="email" name="email" />
+            </label>
+            <button class="footer-form-btn" type="submit">Підписатися</button>
+            <svg class="footer-form-icon" width="24" height="24">
+              <use href="./images/icon.svg#icon-icon-send"></use>
+            </svg>
+          </form>
         </div>
       </div>
     </footer>
