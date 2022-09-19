@@ -358,12 +358,16 @@ ul {
 }
 
 .register-group {
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .register-label {
   position: relative;
   display: block;
+  /* margin-bottom: 28px; */
+}
+
+.register-label:not(:last-child) {
   margin-bottom: 28px;
 }
 
@@ -1122,7 +1126,6 @@ textarea {
 /* footer-form */
 
 .box-footer-form {
-  position: relative;
   width: 574px;
   height: 86px;
 }
@@ -1170,6 +1173,7 @@ textarea {
 }
 
 .footer-form-btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
   margin-left: 12px;
